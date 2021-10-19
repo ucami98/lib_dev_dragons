@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/catalogostyle.css" />
+    <title>Catalogo</title>
+  </head>
+  <body id="body">
+    <h1>Catalogo</h1>
+    <fieldset id="catalogo" class="contenedor">
+      <legend>Libros</legend>
+      <div class="articulo">
+        <img class="portada" src="assets/img/slicer1.jfif" alt="" />
+        <div class="informacion">
+          <p>Code Complete</p>
+          <p>$90000</p>
+        </div>
+        <div class="contenedorcantidad">
+          <p>Cantidad</p>
+          <input id="ilibro1" type="Number" min="0" value="1" />
+        </div>
+      </div>
+
+      <div class="articulo">
+        <img class="portada" src="assets/img/slicer2.jpg" alt="" />
+        <div class="informacion">
+          <p>Code Complete 2</p>
+          <p>$95000</p>
+        </div>
+        <div class="contenedorcantidad">
+          <p>Cantidad</p>
+          <input id="ilibro2" type="Number" min="0" value="1" />
+        </div>
+      </div>
+
+      <div class="articulo">
+        <img class="portada" src="assets/img/slicer3.jfif" alt="" />
+        <div class="informacion">
+          <p>The Pragmatic Programmer</p>
+          <p>$97000</p>
+        </div>
+        <div class="contenedorcantidad">
+          <p>Cantidad</p>
+          <input id="ilibro3" type="Number" min="0" value="1" />
+        </div>
+      </div>
+
+      <div class="articulo">
+        <img class="portada" src="assets/img/slicer4.jfif" alt="" />
+        <div class="informacion">
+          <p>Ingenieria de Software</p>
+          <p id="precioL1">$35000</p>
+        </div>
+        <div class="contenedorcantidad">
+          <p>Cantidad</p>
+          <input id="ilibro4" type="Number" min="0" value="1" />
+        </div>
+      </div>
+    </fieldset>
+
+    <button id="btnCarro" class="carrito">Añadir al carro</button>
+    <button id="btnUpdt" class="carrito">Actualizar el carro</button>
+    <fieldset>
+      <div>
+        <p id="data2"></p>
+        <button id="btnPago">Pagar</button>
+      </div>
+    </fieldset>
+
+
+      <legend>Este es su carro de compras</legend>
+      <div>
+        <p id="data">
+          <style>
+            table {
+              border-collapse: collapse;
+              border-spacing: 150x;
+            }
+            th,
+            td {
+              padding: 10px 20px;
+              border: 1px solid #000;
+            }
+          </style>
+        </p>
+      </div>
+  
+
+    <script src="assets/catalogo.js" ; type="text/javascript"></script>
+  </body>
+</html>
