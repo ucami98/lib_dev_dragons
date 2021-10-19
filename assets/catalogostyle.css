@@ -15,7 +15,8 @@
 }
 
 body{
-    background-color: #d1a171;
+    background-color: #c4b4a4;
+    background: linear-gradient( #d1a171,#ffff,rgb(83, 51, 51));
 }
 h1{
     text-align: center;

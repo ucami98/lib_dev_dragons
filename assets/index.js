@@ -9,7 +9,7 @@ $("#nextBtn").click(function(){
 });
 
 document.getElementById("btnctg").addEventListener("click", function(){
-    window.location.href = 'http://127.0.0.1:5500/catalogo.html';
+    window.location.href = 'http://127.0.0.1:5500/catalogo.html#catalogo';
     })
 
     document.getElementById("btncdc").addEventListener("click", function(){
